@@ -1,0 +1,9 @@
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <ul class="main-header__item-list">
+                <li class="main-header__item"> <% if (activeTab === 'home') { %> <a class="active" href="/"> Home <% } else { %> <a href="/"> Home <% } %> </a></li>
+                <li class="main-header__item"> <% if (activeTab === 'users') { %> <a class="active" href="/users"> Users <% } else { %> <a href="/users"> Users <% } %> </a></li>
+            </ul>
+        </nav>
+    </header>
